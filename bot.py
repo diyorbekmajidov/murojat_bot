@@ -10,7 +10,8 @@ from telegram.ext import (
 
 import handlers
 
-TOKEN = f'6111650437:AAG7tY93uFLFSlyDZKUuvImQh-mXI42L9K0'
+from settings import TOKEN
+
 updater = Updater(TOKEN)
 
 dp = updater.dispatcher
